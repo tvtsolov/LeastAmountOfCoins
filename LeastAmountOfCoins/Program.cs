@@ -14,8 +14,8 @@ class Program
         int coins5 = 0;
         int coins2 = 0;
         int coins1 = 0;
-        decimal price = Convert.ToDecimal(Console.ReadLine());
-        decimal paid = Convert.ToDecimal(Console.ReadLine());
+        decimal price = Convert.ToDecimal(Console.ReadLine());  // first input it the price
+        decimal paid = Convert.ToDecimal(Console.ReadLine());   // second input is the actual amount that is paid
 
         decimal change = paid - price;
         int leva = Convert.ToInt32(Math.Floor(change));
@@ -86,6 +86,4 @@ class Program
     }
 } 
 
-// notes notes
-//
 
